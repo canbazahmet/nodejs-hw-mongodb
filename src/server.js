@@ -2,9 +2,9 @@ const express = require('express');
 const cors = require('cors');
 const pinoHttp = require('pino-http');
 
-const contactsRouter = require('./routers/contacts');
-const { errorHandler } = require('./middlewares/errorHandler');
-const { notFoundHandler } = require('./middlewares/notFoundHandler');
+const contactsRouter = require('./routers/contacts.js');
+const { errorHandler } = require('./middlewares/errorHandler.js');
+const { notFoundHandler } = require('./middlewares/notFoundHandler.js');
 
 function setupServer() {
   const app = express();
