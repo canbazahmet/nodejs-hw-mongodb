@@ -23,9 +23,9 @@
   "homepage": "https://github.com/canbazahmet/nodejs-hw-mongodb#readme",
   "devDependencies": {
     "@eslint/js": "^9.39.2",
-    "eslint": "^9.39.2",
+    "eslint": "^4.1.1",
     "globals": "^17.3.0",
-    "nodemon": "^3.1.9"
+    "nodemon": "^1.0.2"
   },
   "dependencies": {
     "cors": "^2.8.6",
